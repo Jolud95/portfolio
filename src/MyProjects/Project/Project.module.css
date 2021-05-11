@@ -7,11 +7,15 @@
     text-align: center;
 }
 .icon {
-    height: 100px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.button {
+.link {
     width: 100px;
     height: 30px;
     background-color: #efdfad;

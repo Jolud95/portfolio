@@ -10,7 +10,7 @@
 }
 .form {
     border: 1px solid;
-    width: 400px;
+    width: 280px;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -19,11 +19,11 @@
     flex-wrap: wrap;
 }
 .input {
-    width: 350px;
+    width: 95%;
     background-color: #ece6f5;
 }
 .textarea {
-    width: 350px;
+    width: 95%;
     background-color: #ece6f5;
 }
 .button {

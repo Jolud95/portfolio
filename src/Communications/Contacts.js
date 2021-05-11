@@ -9,15 +9,9 @@ function Contacts() {
                     <h1>Contacts</h1>
                 </div>
                 <form className={style.form}>
-                    <div>
                         <input className={style.input} type={"text"}/>
-                    </div>
-                    <div>
                         <input className={style.input} type={"text"}/>
-                    </div>
-                    <div>
                         <textarea className={style.textarea}></textarea>
-                    </div>
                 </form>
                 <button className={style.button}>Send</button>
             </div>
