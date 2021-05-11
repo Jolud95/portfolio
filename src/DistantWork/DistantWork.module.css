@@ -1,0 +1,15 @@
+.distantWorkBlock {
+    height: 150px;
+    background-color: #ece6f5;
+}
+.distantWorkContainer {
+    flex-direction: column;
+}
+.text {
+    background-color: greenyellow;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #efdfad;
+}
