@@ -1,18 +1,37 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #efc0ed;
+    background-color: #F36363;
 }
+
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .title {
     background-color: #d59e10;
+    margin:0 0 20px;
 }
+
+.title h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.5;
+    color: #000;
+}
+
 .projects {
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 755px) {
+    .projects {
+        justify-content: center;
+    }
 }

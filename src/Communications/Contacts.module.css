@@ -10,7 +10,7 @@
 }
 .form {
     border: 1px solid;
-    width: 280px;
+    width: 50%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -19,15 +19,20 @@
     flex-wrap: wrap;
 }
 .input {
-    width: 95%;
+    width: 100%;
     background-color: #ece6f5;
 }
 .textarea {
-    width: 95%;
+    width: 100%;
     background-color: #ece6f5;
 }
 .button {
     width: 100px;
     height: 30px;
     background-color: #efdfad;
+}
+@media screen and (max-width: 500px) {
+    .form {
+        width: 100%;
+    }
 }

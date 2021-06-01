@@ -1,6 +1,7 @@
 .skill {
     width: 250px;
     background-color: #a0e7e7;
+    margin: 15px;
     padding: 20px;
     box-sizing: border-box;
     display: flex;

@@ -9,11 +9,11 @@ function Contacts() {
                     <h1>Contacts</h1>
                 </div>
                 <form className={style.form}>
-                        <input className={style.input} type={"text"}/>
-                        <input className={style.input} type={"text"}/>
-                        <textarea className={style.textarea}></textarea>
+                    <input className={style.input} type={"text"}/>
+                    <input className={style.input} type={"text"}/>
+                    <textarea className={style.textarea}></textarea>
                 </form>
-                <button className={style.button}>Send</button>
+                <button type={"submit"} className={style.button}>Send</button>
             </div>
         </div>
     );

@@ -7,7 +7,9 @@ function Projects() {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <h2 className={style.title}>My projects</h2>
+                <div className={style.title}>
+                    <h2>My projects</h2>
+                </div>
                 <div className={style.projects}>
                     <Project title={"Social network"}
                              description={"It's almost Facebook or VK"}
