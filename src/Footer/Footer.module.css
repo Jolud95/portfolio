@@ -1,12 +1,26 @@
 .footerBlock {
-    height: 200px;
-    background-color: #8f8ffa;
+    height: 150px;
+    background-color: #fff;
 }
 .footerContainer {
     flex-direction: column;
 }
+p {
+    margin: 0px;
+}
+.name {
+    border: 1px solid;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000
+}
 .text {
-    background-color: #d9b1db;
+    border: 1px solid;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000
 }
 .link {
     width: 210px;
@@ -17,5 +31,5 @@
 .icon {
     height: 30px;
     width: 30px;
-    background-color: aqua;
+    background-color: #ff8c00;
 }

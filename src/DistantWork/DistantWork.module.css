@@ -1,15 +1,17 @@
 .distantWorkBlock {
     height: 150px;
-    background-color: #ece6f5;
+    background-color: #828282;
 }
 .distantWorkContainer {
     flex-direction: column;
 }
-.text {
-    background-color: greenyellow;
-}
 .button {
     width: 100px;
     height: 30px;
-    background-color: #efdfad;
+    background-color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F36363;
+    text-align: center;
 }

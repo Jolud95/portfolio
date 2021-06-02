@@ -6,9 +6,9 @@ function Main() {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
-                    <span>Hi There</span>
-                    <h1>I am Ekaterina Dubovskaya</h1>
-                    <p>Frontend Developer</p>
+                    <span className={style.hello}>Hi There</span>
+                    <h1 className={style.me}>I am Ekaterina Dubovskaya</h1>
+                    <p className={style.profession}>Frontend Developer</p>
                 </div>
                 <div className={style.photo}></div>
             </div>

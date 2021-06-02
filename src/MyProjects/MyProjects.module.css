@@ -8,26 +8,13 @@
     justify-content: flex-start;
 }
 
-.title {
-    background-color: #d59e10;
-    margin:0 0 20px;
-}
-
-.title h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin: 0;
-    line-height: 1.5;
-    color: #000;
-}
-
 .projects {
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 755px) {

@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <div className={style.text}>
+                <div className={style.name}>
                     <p>Ekaterina Dubovskaya</p>
                 </div>
                 <div className={style.link}>

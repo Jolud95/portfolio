@@ -1,13 +1,21 @@
 .mainBlock {
     height: 100vh;
-    background-color: #ece6f5;
+    background-color: #F36363;
 }
 .text {
+    background-color: #ff8c00;
+    padding: 10px;
     width: 300px;
-    background-color: #a0e7e7;
+}
+.me {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #000;
+    text-shadow: #fff 2px 1px;
 }
 .photo {
     width: 300px;
     height: 400px;
-    background-color: #a0e7e7;
+    border: 1px solid;
 }
