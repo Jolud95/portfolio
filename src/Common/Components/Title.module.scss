@@ -1,0 +1,23 @@
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  position: relative;
+  color: #000;
+
+  .title h2 {
+    margin: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: #ff8c00;
+    width: 70px;
+    height: 1px;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}

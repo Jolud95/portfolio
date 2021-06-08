@@ -1,9 +1,9 @@
-import style from "./MyProjects.module.css"
+import style from "./MyProjects.module.scss"
 import styleContainer from "./../Common/Styles/Container.module.css"
 import Project from "./Project/Project";
 import Title from "../Common/Components/Title";
 import todoImg from "./../Assets/img/todolist.jpg"
-import networkImg from "./../Assets/img/network.png"
+import networkImg from "./../Assets/img/network.jpg"
 
 function Projects() {
     const network = {

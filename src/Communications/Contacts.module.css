@@ -1,11 +1,12 @@
 .contactsBlock {
     background-color: #F36363;
-    height: 300px;
+    padding: 100px 0;
 }
 .contactsContainer {
     flex-direction: column;
 }
 .form {
+    margin: 50px 0;
     border: 1px solid;
     width: 50%;
     height: 100px;
