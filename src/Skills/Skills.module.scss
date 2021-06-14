@@ -1,14 +1,14 @@
 @import "../Common/Styles/sass/variable";
 
-.projectsBlock {
+.skillsBlock {
   padding: 100px 0;
-  background-color: $backgroundColorOne;
+  background-color: $backgroundColorThree;
 
-  .projectsContainer {
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
 
-    .projects {
+    .skills {
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -20,4 +20,7 @@
     }
   }
 }
+
+
+
 

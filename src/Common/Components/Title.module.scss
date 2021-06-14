@@ -1,10 +1,13 @@
+@import "../Styles/sass/variable";
+
 .title {
-  font-family: 'Playfair Display', serif;
+  font-family: $fontFamilyTwo;
   font-size: 25px;
   margin: 0 0 20px 0;
   line-height: 1.5;
   position: relative;
-  color: #000;
+  color: $textColor;
+  text-align: center;
 
   .title h2 {
     margin: 0;
@@ -13,7 +16,7 @@
   &::before {
     content: "";
     position: absolute;
-    background: #ff8c00;
+    background: $primaryBrightColor;
     width: 70px;
     height: 1px;
     bottom: -15px;

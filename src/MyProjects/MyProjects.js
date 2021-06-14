@@ -1,5 +1,5 @@
 import style from "./MyProjects.module.scss"
-import styleContainer from "./../Common/Styles/Container.module.css"
+import styleContainer from "../Common/Styles/Container.module.scss"
 import Project from "./Project/Project";
 import Title from "../Common/Components/Title";
 import todoImg from "./../Assets/img/todolist.jpg"

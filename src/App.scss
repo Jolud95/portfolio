@@ -1,0 +1,14 @@
+@import "./Common/Styles/sass/variable";
+@import "./Common/Styles/sass/mixins";
+
+body {
+  @include text($fontFamilyOne, 400, 16, #fff);
+  line-height: 1.7;
+
+  h3 {
+    @include text($fontFamilyTwo, 400, 20, #fff);
+  }
+}
+
+
+

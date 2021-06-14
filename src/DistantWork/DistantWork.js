@@ -1,5 +1,5 @@
-import style from "./DistantWork.module.css"
-import styleContainer from "./../Common/Styles/Container.module.css"
+import style from "./DistantWork.module.scss"
+import styleContainer from "../Common/Styles/Container.module.scss"
 import Title from "../Common/Components/Title";
 
 function DistantWork() {

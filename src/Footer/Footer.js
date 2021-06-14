@@ -1,5 +1,5 @@
-import style from "./Footer.module.css"
-import styleContainer from "./../Common/Styles/Container.module.css"
+import style from "./Footer.module.scss"
+import styleContainer from "../Common/Styles/Container.module.scss"
 
 function Footer() {
     return (
