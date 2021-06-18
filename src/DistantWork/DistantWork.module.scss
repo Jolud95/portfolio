@@ -3,7 +3,8 @@
 
 .distantWorkBlock {
   padding: 100px 0;
-  background-color: $backgroundColorThree;
+  background: rgb(248,203,203);
+  background: linear-gradient(180deg, rgba(248,203,203,1) 4%, rgba(229,227,227,1) 30%);
 
   .distantWorkContainer {
     flex-direction: column;

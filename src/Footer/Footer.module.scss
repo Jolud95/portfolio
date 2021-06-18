@@ -9,7 +9,6 @@
     flex-direction: column;
 
     .name {
-      border: 1px solid;
       @include text($fontFamilyTwo, 400, 15px, $textColor);
        p {
         margin: 0px;
@@ -31,7 +30,6 @@
     }
 
     .text {
-      border: 1px solid;
       padding: 0px;
       @include text($fontFamilyOne, 400, 15px, $textColor);
       p {

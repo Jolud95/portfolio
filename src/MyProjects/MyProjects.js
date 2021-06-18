@@ -20,11 +20,13 @@ function Projects() {
                     <Project style={network}
                              title={"Social network"}
                              description={"It's almost Facebook or VK"}
-                             pageDescription={"Page for my project 'Social Network'"}/>
+                             pageDescription={"Page for my project 'Social Network'"}
+                             url={"https://jolud95.github.io/waysam_js/"}/>
                     <Project style={todolist}
                              title={"Todolist"}
                              description={"I will help you remember all"}
-                             pageDescription={"Page for my project 'Todolist'"}/>
+                             pageDescription={"Page for my project 'Todolist'"}
+                             url={"https://jolud95.github.io/Todolist/"}/>
                 </div>
             </div>
         </div>

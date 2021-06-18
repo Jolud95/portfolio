@@ -36,13 +36,16 @@
       text-align: center;
       width: 100px;
       height: 30px;
-      background-color: rgba(255, 140, 0, 0.8);
+      background-color: #f5c082;
+      opacity: 0.9;
       position: relative;
       z-index: 1;
+
       &:hover {
         color: #F36363;
         text-decoration: none
       }
+
       &:visited {
         color: #fff;
         text-decoration: none
@@ -52,8 +55,10 @@
 
   .info {
     padding: 20px;
+    color: $textColor;
 
     .title {
+      color: $textColor;
       margin: 5px 0 5px;
     }
   }
