@@ -7,9 +7,9 @@ import {faServer, faTasks} from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
     return (
-        <div className={style.skillsBlock}>
+        <div id={"skills"} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title title={"My skills"}/>
+                <Title title={"My skills"} background={"Skills"}/>
                 <div className={style.skills}>
                     <Skill title={"React/Redux"}
                            description={"BLL & UI"}

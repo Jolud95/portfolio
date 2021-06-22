@@ -4,13 +4,14 @@ import Title from "../Common/Components/Title";
 
 function Contacts() {
     return (
-        <div className={style.contactsBlock}>
+        <div id={'contacts'} className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <Title title={"Contacts"}/>
+                <Title title={"Contacts"}
+                       background={"Contacts"}/>
                 <form className={style.form}>
-                    <input className={style.input} type={"text"}/>
-                    <input className={style.input} type={"text"}/>
-                    <textarea className={style.textarea}></textarea>
+                    <input placeholder={"Name"} className={style.input} type={"text"} name={"name"}/>
+                    <input placeholder={"Email"} className={style.input} type={"text"} name={"email"}/>
+                    <textarea placeholder={"Description"} className={style.textarea} name={"message"}></textarea>
                 </form>
                 <button type={"submit"} className={style.button}>Send</button>
             </div>

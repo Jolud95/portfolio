@@ -6,7 +6,8 @@ function DistantWork() {
     return (
         <div className={style.distantWorkBlock}>
             <div className={`${styleContainer.container} ${style.distantWorkContainer}`}>
-                <Title title={"I can work on a distance"}/>
+                <Title title={"I can work on a distance"}
+                       background={"Online job"}/>
                 <button className={style.button}>Hire me</button>
             </div>
         </div>

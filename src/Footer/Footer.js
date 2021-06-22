@@ -12,16 +12,24 @@ function Footer() {
                 </div>
                 <div className={style.link}>
                     <div className={style.iconContainer}>
+                        <a title={"LinkedIn"} target={"_blank"} href={"https://www.linkedin.com/in/ekaterina-dubovskaya-4b9aa5213/"}>
                         <FontAwesomeIcon className={style.icon} icon={faLinkedinIn}/>
+                        </a>
                     </div>
                     <div className={style.iconContainer}>
+                        <a title={"GitHub"} target={"_blank"} href={"https://github.com/Jolud95"}>
                         <FontAwesomeIcon className={style.icon} icon={faGithub}/>
+                        </a>
                     </div>
                     <div className={style.iconContainer}>
+                        <a title={"Telegram"} target={"_blank"} href={"https://t.me/joluuud"}>
                         <FontAwesomeIcon className={style.icon} icon={faTelegram}/>
+                        </a>
                     </div>
                     <div className={style.iconContainer}>
+                        <a title={"VK"} target={"_blank"} href={"https://vk.com/id46220168"}>
                         <FontAwesomeIcon className={style.icon} icon={faVk}/>
+                        </a>
                     </div>
                 </div>
                 <div className={style.text}>

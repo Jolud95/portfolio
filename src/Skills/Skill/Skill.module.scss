@@ -24,11 +24,11 @@
   }
 
   .title {
-    @include text($fontFamilyTwo, 500, 20, $textColor);
+    @include text($fontFamilyOne, 700, 20, $textColorOne);
   }
 
   .description {
-    @include text($fontFamilyOne, 500, 16, $textColor);
+    @include text($fontFamilyOne, 400, 16, $textColorOne);
   }
 
 }

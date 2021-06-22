@@ -2,15 +2,16 @@
 @import "../Common/Styles/sass/mixins";
 
 .footerBlock {
-  height: 150px;
-  background-color: $backgroundColorTwo;
+  height: 100px;
+  background-color: #5b5963;
 
   .footerContainer {
     flex-direction: column;
 
     .name {
-      @include text($fontFamilyTwo, 400, 15px, $textColor);
-       p {
+      @include text($fontFamilyOne, 200, 15px, $textColorTwo);
+
+      p {
         margin: 0px;
       }
     }
@@ -25,17 +26,29 @@
         height: 30px;
         width: 30px;
         border-radius: 20px;
-        background-color: $backgroundColorThree;
-        .icon {
-          margin-top: 7px;
-          margin-left: 7px;
+        border: 1px solid #fff;
+        a {
+          text-decoration: none;
+          &:hover {
+            text-decoration: none
+          }
+          &:visited {
+            color: $backgroundColorTwo;
+            text-decoration: none
+          }
         }
+        .icon {
+          margin-top: 6px;
+          margin-left: 6px;
+        }
+
       }
     }
 
     .text {
       padding: 0px;
-      @include text($fontFamilyOne, 400, 15px, $textColor);
+      @include text($fontFamilyOne, 400, 15px, $textColorTwo);
+
       p {
         margin: 0px;
       }

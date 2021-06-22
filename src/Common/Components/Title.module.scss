@@ -1,26 +1,50 @@
 @import "../Styles/sass/variable";
+@import "../Styles/sass/mixins";
+
 
 .title {
-  font-family: $fontFamilyTwo;
-  font-size: 25px;
-  margin: 0 0 20px 0;
-  line-height: 1.5;
-  position: relative;
-  color: $textColor;
+  margin: 0 0 50px;
   text-align: center;
+  display: block;
+  width: 100%;
 
-  .title h2 {
-    margin: 0;
-  }
 
-  &::before {
-    content: "";
-    position: absolute;
-    background: #F36363;
-    width: 70px;
-    height: 1px;
-    bottom: -15px;
-    left: 50%;
-    transform: translate(-50%, 50%);
+  .header {
+    @include text($fontFamilyOne, 400, 40px, $textColorOne);
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    position: relative;
+
+
+    span {
+      font-size: 100px;
+      font-weight: 700;
+      left: 0;
+      right: 0;
+      position: absolute;
+      text-align: center;
+      top: -50px;
+      z-index: 0;
+      opacity: 0.05;
+      letter-spacing: 15px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: $textColorOne;
+      width: 70px;
+      height: 1px;
+      bottom: -25px;
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
   }
 }

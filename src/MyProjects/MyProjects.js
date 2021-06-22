@@ -13,13 +13,13 @@ function Projects() {
         backgroundImage: `url(${todoImg})`,
     }
     return (
-        <div className={style.projectsBlock}>
+        <div id={"projects"} className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title title={"My projects"}/>
+                <Title title={"My projects"} background={"Portfolio"}/>
                 <div className={style.projects}>
                     <Project style={network}
                              title={"Social network"}
-                             description={"It's almost Facebook or VK"}
+                             description={"It's like Facebook or VK"}
                              pageDescription={"Page for my project 'Social Network'"}
                              url={"https://jolud95.github.io/waysam_js/"}/>
                     <Project style={todolist}

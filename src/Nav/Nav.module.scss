@@ -1,7 +1,11 @@
+@import "../Common/Styles/sass/variable";
+@import "../Common/Styles/sass/mixins";
+
 .nav {
   width: 300px;
   display: flex;
   justify-content: space-between;
+  @include text($fontFamilyOne, 400, 16px, $textColorTwo);
 
   a:link {
     color: #828282;
