@@ -2,8 +2,7 @@
 @import "../Common/Styles/sass/mixins";
 
 .contactsBlock {
-  background: rgb(229,227,227);
-  background: linear-gradient(180deg, rgba(229,227,227,1) 6%, rgba(248,203,203,1) 34%, rgba(248,203,203,1) 66%, rgba(255,255,255,1) 91%);
+  background: $backgroundColorOne;
   padding: 100px 0;
 
   .contactsContainer {
@@ -39,7 +38,7 @@
       width: 100px;
       height: 30px;
       background-color: $backgroundColorThree;
-      @include text($fontFamilyOne, 400, 16px, #F36363);
+      @include text($fontFamilyOne, 400, 16px, $textColorTwo);
       text-align: center;
     }
   }

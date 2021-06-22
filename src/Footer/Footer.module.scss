@@ -21,11 +21,15 @@
       justify-content: space-between;
       flex-wrap: wrap;
 
-      .icon {
+      .iconContainer {
         height: 30px;
         width: 30px;
-        border-radius: 10px;
-        background-color: $primaryBrightColor;
+        border-radius: 20px;
+        background-color: $backgroundColorThree;
+        .icon {
+          margin-top: 7px;
+          margin-left: 7px;
+        }
       }
     }
 

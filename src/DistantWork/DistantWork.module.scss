@@ -3,8 +3,8 @@
 
 .distantWorkBlock {
   padding: 100px 0;
-  background: rgb(248,203,203);
-  background: linear-gradient(180deg, rgba(248,203,203,1) 4%, rgba(229,227,227,1) 30%);
+  background: linear-gradient(45deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%), url("../Assets/img/map.jpg"), no-repeat;
+  background-size: cover;
 
   .distantWorkContainer {
     flex-direction: column;
@@ -13,8 +13,8 @@
       margin: 50px 0;
       width: 100px;
       height: 30px;
-      background-color: $backgroundColorTwo;
-      @include text($fontFamilyOne, 400, 16px, #F36363);
+      background-color: $backgroundColorThree;
+      @include text($fontFamilyOne, 400, 16px, $textColorTwo);
       text-align: center;
     }
   }

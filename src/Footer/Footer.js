@@ -11,10 +11,18 @@ function Footer() {
                     <p>Ekaterina Dubovskaya</p>
                 </div>
                 <div className={style.link}>
-                    <FontAwesomeIcon className={style.icon} icon={faLinkedinIn}/>
-                    <FontAwesomeIcon className={style.icon} icon={faGithub}/>
-                    <FontAwesomeIcon className={style.icon} icon={faTelegram}/>
-                    <FontAwesomeIcon className={style.icon} icon={faVk}/>
+                    <div className={style.iconContainer}>
+                        <FontAwesomeIcon className={style.icon} icon={faLinkedinIn}/>
+                    </div>
+                    <div className={style.iconContainer}>
+                        <FontAwesomeIcon className={style.icon} icon={faGithub}/>
+                    </div>
+                    <div className={style.iconContainer}>
+                        <FontAwesomeIcon className={style.icon} icon={faTelegram}/>
+                    </div>
+                    <div className={style.iconContainer}>
+                        <FontAwesomeIcon className={style.icon} icon={faVk}/>
+                    </div>
                 </div>
                 <div className={style.text}>
                     <p>© 2021, All Rights Reserved</p>

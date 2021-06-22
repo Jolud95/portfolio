@@ -2,8 +2,7 @@
 
 .skillsBlock {
   padding: 100px 0;
-  background: rgb(229,227,227);
-  background: linear-gradient(180deg, rgba(229,227,227,1) 58%, rgba(248,203,203,1) 100%);
+  background: $backgroundColorOne;
 
   .skillsContainer {
     flex-direction: column;

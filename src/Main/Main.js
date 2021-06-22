@@ -10,7 +10,6 @@ function Main() {
                     <h1 className={style.me}>I am Ekaterina Dubovskaya</h1>
                     <p className={style.profession}>Frontend Developer</p>
                 </div>
-                <div className={style.photo}></div>
             </div>
 
         </div>

@@ -12,11 +12,15 @@
   align-items: center;
   text-align: center;
 
-  .icon {
+  .iconContainer {
+    margin-top: -50px;
     height: 60px;
     width: 60px;
-    border-radius: 10px;
-    background-color: $primaryBrightColor;
+    border-radius: 40px;
+    background-color: $backgroundColorThree;
+    .icon {
+      margin-top: 15px;
+    }
   }
 
   .title {

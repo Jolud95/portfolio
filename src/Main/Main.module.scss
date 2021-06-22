@@ -3,16 +3,16 @@
 
 .mainBlock {
   height: 110vh;
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 9%, rgba(248,203,203,1) 80%, rgba(229,227,227,1) 96%);
+  background: linear-gradient(45deg, rgba(250, 31, 85, 0.5) 0%, rgba(253, 115, 90, 0.5) 100%), url("../Assets/img/me.jpg");
   @media screen and (max-width: 1000px) {
     height: 100%;
   }
 
   .text {
-    background-color: $primaryBrightColor;
+    background: url("../Assets/img/points.svg");
+    background-size: contain;
     padding: 10px;
-    width: 400px;
+    width: 520px;
 
     .hello,
     .profession {
@@ -23,15 +23,6 @@
       @include text($fontFamilyTwo, 400, 45px, $textColor);
       text-shadow: #fff 2px 1px;
     }
-  }
-
-  .photo {
-    width: 400px;
-    height: 600px;
-    background: url("../Assets/img/me.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
 
