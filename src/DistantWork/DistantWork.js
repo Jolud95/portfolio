@@ -8,7 +8,7 @@ function DistantWork() {
             <div className={`${styleContainer.container} ${style.distantWorkContainer}`}>
                 <Title title={"I can work on a distance"}
                        background={"Online job"}/>
-                <button className={style.button}>Hire me</button>
+                <a href="#contacts"><button className={style.button}>Hire me</button></a>
             </div>
         </div>
     );

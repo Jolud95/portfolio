@@ -24,7 +24,7 @@ function Projects() {
                              url={"https://jolud95.github.io/waysam_js/"}/>
                     <Project style={todolist}
                              title={"Todolist"}
-                             description={"I will help you remember all"}
+                             description={"It helps you remember all"}
                              pageDescription={"Page for my project 'Todolist'"}
                              url={"https://jolud95.github.io/Todolist/"}/>
                 </div>
