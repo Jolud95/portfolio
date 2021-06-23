@@ -7,7 +7,8 @@ function Contacts() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_cxaobwm', 'template_6gzc6xi', e.target, 'user_G25UmQA8d579D9WphNfM2')
+        emailjs.sendForm('service_f037s4u', 'template_s04peal', e.target,
+            'user_IAMWvHS9bSmB9RBrT2Yog')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
