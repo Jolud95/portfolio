@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.297f707d.chunk.css",
+    "main.css": "/portfolio/static/css/main.95cc8b79.chunk.css",
     "main.js": "/portfolio/static/js/main.392352a5.chunk.js",
     "main.js.map": "/portfolio/static/js/main.392352a5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.06a402bd.js",
@@ -10,7 +10,7 @@
     "static/js/3.629d19fa.chunk.js": "/portfolio/static/js/3.629d19fa.chunk.js",
     "static/js/3.629d19fa.chunk.js.map": "/portfolio/static/js/3.629d19fa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.297f707d.chunk.css.map": "/portfolio/static/css/main.297f707d.chunk.css.map",
+    "static/css/main.95cc8b79.chunk.css.map": "/portfolio/static/css/main.95cc8b79.chunk.css.map",
     "static/js/2.a106075d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a106075d.chunk.js.LICENSE.txt",
     "static/media/DistantWork.module.scss": "/portfolio/static/media/map.a67dc21a.jpg",
     "static/media/Main.module.scss": "/portfolio/static/media/points.ec966617.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.06a402bd.js",
     "static/js/2.a106075d.chunk.js",
-    "static/css/main.297f707d.chunk.css",
+    "static/css/main.95cc8b79.chunk.css",
     "static/js/main.392352a5.chunk.js"
   ]
 }
