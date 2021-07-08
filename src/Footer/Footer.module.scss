@@ -28,8 +28,10 @@
         border-radius: 20px;
         border: 1px solid #fff;
         a {
+          color: $backgroundColorTwo;
           text-decoration: none;
           &:hover {
+            color: $backgroundColorTwo;
             text-decoration: none
           }
           &:visited {
